@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="whole-form-bg">
+        <div class="whole-form">
+            <!--main form is this class-->
+            <div class="form-title">
+                <!--form 1 title and 1 paragraph from top-->
+                <h1 id="form-title-h1">Application For Permission To Date My Daughter</h1>
+                <p id="form-title-p"><strong>Note:</strong> Form is to be completed at least 21 days prior to date</p>
+            </div>
+            <!--end of form 1 title and 1 paragraph from top-->
+            <div>
+                <!--start of form-->
+                <form class="form-main">
+                    <fieldset class="form-fieldset">
+                        <!--first part of form-->
+                        <legend class="form-legend">Personal Details</legend>
+                        <label for="name"></label>Name: <input type="text" name="name" class="form-input" id="name"
+                            placeholder="Enter your name"><br>
+                        <label for="address"></label>Address: <input type="text" name="address" class="form-input"
+                            id="address" placeholder="Enter your address"><br>
+                        <label for="email"></label>Email: <input type="email" name="email" class="form-input" id="email"
+                            placeholder="Enter your email"><br>
+                        <label for="phone"></label>Number: <input type="number" name="phone" class="form-input"
+                            id="number" placeholder="Enter your name phone number"><br>
+                        <label for="iq"></label>IQ: <input type="number" name="iq" class="form-input" id="iq"
+                            placeholder="Enter your iq"><br>
+                        Select your gender <br><br>
+                        <input type="radio" name="male" class="radio-selection">Male<br><br>
+                        <input type="radio" name="female" class="radio-selection">Female<br><br>
+                        <input type="radio" name="other" class="radio-selection">Other<br>
+                        Date of Proposed Outing: <input type="date" name="date" id="date">
+                    </fieldset>
+                </form>
+                <!--2nd part of form-->
+                <form class="form-main">
+                    <fieldset class="form-fieldset">
+                        <p>Check all that apply</p><br><br>
+                        <input type="checkbox" name="part1" class="second-part-ck">I have tattoos and/or
+                        piercings<br><br>
+                        <input type="checkbox" name="part2" class="second-part-ck">I am more than 2 years older than my
+                        daughter<br><br>
+                        <input type="checkbox" name="part3" class="second-part-ck">I own a panel van or V8 ute<br><br>
+                        <input type="checkbox" name="part4" class="second-part-ck">I work full-time<br><br>
+                        <input type="checkbox" name="part5" class="second-part-ck">My parents are rich<br><br>
+                        <input type="checkbox" name="part6" class="second-part-ck">Is the date at a well lit public
+                        location<br><br>
+                    </fieldset>
+                </form>
+                <!--3rd part of form-->
+                <form class="form-main">
+                    <fieldset class="form-fieldset">
+                        <strong> Persuasion:</strong>
+                        <select class="list">
+                            <option>Left Wing</option>
+                            <option>Right Wing</option>
+                            <option>Conservative</option>
+                            <option>Nazi</option>
+                        </select>
+                        <strong> Education Level Completed:</strong>
+                        <select>
+                            <option>University</option>
+                            <option>College</option>
+                            <option>High School</option>
+                            <option>None</option>
+                        </select>
+                    </fieldset>
+                </form>
+                <!--4th part of form-->
+                <form class="form-main">
+                    <fieldset class="form-fieldset">
+                        <legend class="form-legend">Essay Section</legend>
+                        <p>In 50 words or more explain why you want to date my daughter</p><br>
+                        <textarea name="opinion" class="opinion" cols="80" rows="10">
+                        </textarea>
+                        <p>Please upload contact details for 2 references</p><br>
+                        <textarea name="" id="" cols="80" rows="10"></textarea><br>
+                        <p>Upload Police Clearance Certificate, Bank Statement and Medical Certifiates here:</p>
+                        <span class="btn-algn"><button class="btn-files" type="submit">Attach files</button></span>
+                    </fieldset>
+                </form>
+                <button type="submit" class="btn-files" id="btn-files2">Send Your Application</button>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

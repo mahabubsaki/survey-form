@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 10px 5px;
+}
+.whole-form-bg {
+    background-color: #FAFAD2;
+    height: 1810px;
+    border-radius: 10px;
+}
+.whole-form {
+    background-color: white;
+    margin: 10px 130px;
+    height: 1761px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px 1px gray;
+}
+.form-title {
+    padding-top: 10px;
+}
+#form-title-h1 {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+}
+#form-title-p{
+    font-family: 'Lato', sans-serif;
+}
+.form-fieldset {
+    background-color: #eeeeee;
+}
+.form-legend {
+    background-color: grey;
+}
+.form-input {
+    margin-bottom: 10px;
+}
+#iq {
+    margin-left: 70px;
+}
+#number {
+    margin-left: 34px;
+}
+#email {
+    margin-left: 48px;
+}
+#address {
+    margin-left: 34px;
+}
+#name {
+    margin-left: 48px;
+}
+body p {
+    font-family: cursive;
+}
+.radio-selection {
+    margin-right: 10px;
+}
+.second-part-ck {
+ margin-right: 10px;   
+}
+.list {
+    margin-right: 50px;
+}
+.form-legend {
+    margin-left: 10px;
+}
+.btn-algn {
+    margin-left: 280px;
+}
+.btn-files {
+    background-color: red;
+    border: none;
+    border-radius: 2px;
+    color: lightskyblue;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.btn-files:hover{
+    background-color: indigo;
+    color: lightcoral;
+}
+#btn-files2 {
+    margin-left: 265px;
+    margin-top: 40px;
+}
